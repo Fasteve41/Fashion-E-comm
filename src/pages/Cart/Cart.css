@@ -1,0 +1,31 @@
+.cartPage{
+    background-color: rgb(240, 236, 231);
+    height: 100%;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 15px 0;
+}
+.cart-page {
+    max-width: 1000px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cart-page img{
+    width: 200px;
+    border-radius:0 10px 10px 0;
+    flex-basis: 30%;
+}
+.cartname{
+    flex-basis: 30%;
+    font-size: 10px;
+}
+.cartdel{
+    font-size: 40px;
+    flex-basis: 30%;
+    align-items: center;
+    margin: auto;
+}

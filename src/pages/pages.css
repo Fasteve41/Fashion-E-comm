@@ -1,0 +1,211 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(210, 217, 223);
+    padding: 0 7%;
+}
+.carticon{
+    position: relative;
+}
+.header-cart{
+    font-size: 60px;
+    color: rgb(192, 161, 75);
+}
+.carticon h5{
+    position: absolute;
+    right: -15px;
+    top: -30px;
+    font-size: 20px;
+}
+.header{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    height: 50px;
+}
+.nav{
+    margin-right: 50px;
+}
+.nav a {
+    margin-right: 30px;
+    color: rgb(5, 5, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.banner{
+    max-width: 100%;
+    height: 650px;
+    background-image: url('../db/hero4.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    align-items: center;
+    padding: 0 7%;
+}
+.banner1{
+    padding-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.banner1 h4{
+    color: rgb(100, 100, 100);
+}
+.bannertext{
+    font-size: 60px;
+    margin-top: 0;
+}
+.bannertext span {
+    color: rgb(88, 167, 88);
+}
+.banner1 button{
+    width: 230px;
+    padding: 15px 5px;
+    background: transparent;
+    background-image:url('../db/button.png');
+    background-position: center;
+    background-size: cover;
+    border: none;
+    color: rgb(88, 167, 88); 
+    font-weight: bold;   
+}
+.banner1 button:hover {
+    opacity: 0.8;
+}
+.features{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 30px ;
+    justify-content: center;
+}
+.features-images {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 10px 20px rgba(100, 91, 91, 0.3);
+    margin: 20px;
+    padding-top: 30px;
+}
+.products{
+    width: 100%;   
+   
+}
+.products h4{
+    margin-top: 0;
+}
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.search-input{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.search-input input{
+    border-radius: 20px;
+    padding: 10px 100px 10px 20px;
+}
+.search-input button{
+    border-radius: 0 20px 20px 0;
+    padding: 10px 20px;
+    border-left: none;
+    background: rgb(122, 170, 122);
+}
+.products-box{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    box-shadow: 0 10px 20px rgba(211, 200, 200, 0.3);
+    padding: 10px;
+    text-align: start;
+    border-radius: 15px;
+    position: relative;
+}
+.products-box:hover{
+    box-shadow: 0 10px 20px rgba(20, 19, 19, 0.3);
+}
+.products-box img{
+    max-width: 100%;
+    flex-basis: 60%;
+    border-radius: 15px;
+}
+.products-star{
+    color: yellow;
+    font-size: 30px;
+}
+
+.products-box p{
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(27, 139, 27);
+}
+.products-cart{
+    font-size: 50px;
+    position: absolute;
+    background-color: rgb(199, 238, 199);
+    padding: 10px;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 10px;
+    transition: all 0.3s;
+}
+.products-cart:hover{
+    background-color: rgb(147, 214, 147);
+    scale: 1.1;
+}
+.off-page{
+    max-width: 100%;
+    height: 200px;
+    background-image: url('../db/b2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+    color: aliceblue;
+    justify-content: center;
+    padding-top: 100px;
+}
+.off-page h3{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Shop{
+    margin-top: 70px;
+}
+.shoptext h1{
+    color: black;
+    font-size: 35px;
+}
+.shoptext h2{
+    color: black;
+    text-decoration: underline;
+}
+.productimg{
+    height: 700px;
+    width: 100%;
+    background-image: url('../db/b10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 20px;
+}
+.productimg h1{
+    font-size: 100px;
+    color: antiquewhite;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
